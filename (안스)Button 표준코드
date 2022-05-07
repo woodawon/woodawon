@@ -1,0 +1,8 @@
+Button button1;
+
+button1 = (Button) findViewById(R.id.button1);
+button1.setOnClickListener( new View.OnClickListener) {
+  public void onClick(View V) {
+		// 버튼을 클릭했을 때 작동할 코드를 이 부분에 넣음.
+	}
+}
